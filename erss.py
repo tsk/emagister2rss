@@ -21,7 +21,8 @@ def EtoRss(opener):
 
     for url_ in urls:
         s = opener.open(urls[url_])
-        getattr(emagister2rss,'rss_'+url_)(s.read(),opener)
+        content = (s.read()).decode("latin-1")
+        getattr(emagister2rss,'rss_'+url_)(content,opener)
 
 def run(email,password):
     import time

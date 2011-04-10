@@ -3,3 +3,4 @@ feeds
 *.rss
 *.pyc
 *~
+test.py
