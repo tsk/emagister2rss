@@ -1,0 +1,17 @@
+$ python server.py
+Enter your email: your@email.com
+Password:
+
+Esto creará una carpeta static/feeds donde se econtrará
+wall.rss
+grupo_inscrito1.rss
+grupo_inscrito2.rss
+...
+
+El puerto de servidor será el 8080 por default
+
+Para dar de alta en nuestro agregador de noticias ya sea el wall o culaquiera de los grupos la dirección sería
+
+http://localhost:8080/static/feeds/el_quede_deseemos_dar_de_alta.rss
+
+Nota: en el rss se va a mostrar exactamente los debates (nada de comentarios en enlaces, archivos, etc. sólo debates)  que se encuentran en la página principal del grupo
