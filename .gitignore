@@ -4,3 +4,4 @@ feeds
 *.pyc
 *~
 test.py
+*.swp
